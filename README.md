@@ -2,4 +2,4 @@
 
 ----
 
-nodejs & grpc demo
+grpc nodejs demo
