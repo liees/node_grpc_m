@@ -19,6 +19,5 @@
   "dependencies": {
     "bluebird": "^3.5.1",
     "grpc": "^1.8.0",
-    "mongoose": "^5.0.0-rc1"
   }
 }
