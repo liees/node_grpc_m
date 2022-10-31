@@ -3,18 +3,18 @@ syntax = 'proto3';
 package userproto;
 
 service User {
-	rpc getById (RequestObjectId) returns (Response) {}
-	rpc getList (RequestCondition) returns (Response) {}
+  rpc getById (RequestObjectId) returns (Response) {}
+  rpc getList (RequestCondition) returns (Response) {}
 }
 
 message RequestObjectId {
-	string userId = 1;
+  string userId = 1;
 }
 
 message RequestCondition {
-	string condition = 1;
+  string condition = 1;
 }
 
 message Response {
-	string message = 1;
+  string message = 1;
 }

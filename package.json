@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/1qing/node-grpc#readme",
   "dependencies": {
+    "@grpc/grpc-js": "^1.7.3",
+    "@grpc/proto-loader": "^0.7.3",
     "bluebird": "^3.5.1",
-    "grpc": "^1.8.0",
+    "grpc": "^1.24.11"
   }
 }
